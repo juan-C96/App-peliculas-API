@@ -4,25 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".AddMovie">
 
     <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="733dp"
+        android:layout_width="728dp"
+        android:layout_height="409dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-3dp">
+        tools:layout_editor_absoluteY="3dp">
 
-        <Button
-            android:id="@+id/bt_add"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Busca una película:" />
+
+        <SearchView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button" />
+            android:background="#F1D88D" />
 
         <ListView
-            android:id="@+id/list_movies"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

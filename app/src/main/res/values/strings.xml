@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Peliculas</string>
+    <string name="button">Añadir nueva película</string>
+    <string name="queryhit">Su película</string>
 </resources>
